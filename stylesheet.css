@@ -292,6 +292,13 @@ a:visited.colorlink {color: #000000;}
 }
 
 .font_list { /*Dont know how to position text lol*/
+    /* margin-top:;
+    margin:; */
 
+}
+
+.experiments_date {
+    text-align: center;
+    margin-top: -20px;
 
 }
