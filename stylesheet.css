@@ -1,0 +1,297 @@
+body {
+    background-color: #939393;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+#navbar_title {
+    color: #ff7365;
+    border: 2px solid #000000;
+    font-family: "Copperplate Gothic Bold",serif;
+    text-align: center;
+    text-shadow: 5px 3px 25px crimson;  }
+
+#navbar_subtitle {
+    text-align: center;
+    font-family: Rockwell, Vivaldi , serif;
+    text-decoration: underline;
+}
+
+#lol_jk {
+    margin-top: -35px;
+    margin-left: 800px;
+    font-size: 6px;
+    text-align: center;
+}
+
+#invisible{
+    margin-top: -15px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+}
+
+header {
+    background-color: #3a0000;
+    height: 50px;
+}
+
+#navbar_div {
+    background-color: #590000;
+    height: 18px;
+    width: 100%; }
+
+.navbar_child {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display:inline;
+}
+
+#navbar_div li a {
+    color: #5c7d3e;
+    background-color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: serif;
+
+}
+
+#Unum {
+    background-color: #e3df8c;
+    text-shadow: 0px 8px 10px #3e3d26;
+
+}
+
+#Unum:hover {
+    background-color: #fffb9e;
+    text-shadow: 0px 8px 10px #fffb9e;
+
+}
+
+#Duo {
+    background-color: #cc4d49;
+    text-shadow: 0px 8px 10px #622623;
+
+}
+
+#Duo:hover {
+    background-color: #ff625c;
+    text-shadow: 0px 8px 10px #ff625c;
+}
+
+#Tribus {
+    background-color: #9c7d57;
+    text-shadow: 0px 8px 10px #5d4b34;
+
+}
+
+#Tribus:hover {
+    background-color: #e0b37c;
+    text-shadow: 0px 8px 10px #ffcd8e;
+}
+
+#Quattuor {
+    background-color: #42558e;
+    text-shadow: 0px 8px 10px #364473;
+}
+
+#Quattuor:hover {
+    background-color: #6786df;
+    text-shadow: 0px 8px 10px #6786df;
+}
+
+#Quinque {
+    background-color: #803d78;
+    text-shadow: 0px 8px 10px #562951;
+
+}
+
+#Quinque:hover {
+    background-color: #bf5bb4;
+    text-shadow: 0px 8px 10px #ff77f3;
+
+}
+
+#Experimentum {
+    background-color: #363636;
+    text-shadow: 0px 8px 10px #6b6b6b;
+
+}
+
+#Experimentum:hover {
+    background-color: #bfbfbf;
+    text-shadow: 0px 8px 10px #ffffff;
+
+}
+
+.Article {
+    float:left;
+    margin-left:500px;
+  }
+
+.center_me {
+    text-align: center;
+}
+
+.color {
+    background-color: #585858
+
+}
+
+button.experiments_button {
+    background-color: whitesmoke;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.experiments_button.active, button.experiments_button:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #939393;
+}
+
+div.panel.show {
+    display: block;
+}
+
+#no_bullets {
+    list-style-type: none;
+}
+
+
+.ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+a:link.colorlink {color: #000000;}
+
+a:visited.colorlink {color: #000000;}
+
+
+
+
+
+
+
+#opacity_test_75 {
+    opacity: .75;
+
+}
+
+#opacity_test_50 {
+    opacity: .50;
+
+}
+
+#opacity_test_25 {
+    opacity: .25
+
+}
+
+#opacity_test_0 {
+    opacity: .0;
+
+}
+
+#opacity_test_50to100 {
+    opacity: .50;
+
+}
+
+#opacity_test_50to100:hover {
+    opacity: 1.0;
+
+
+}
+
+#div_opacity {
+    opacity: .50;
+    margin: 25px;
+    border: 25px;
+    padding: 25px;
+    background-color: #009185;
+    text-align: center;
+    font-size:25px;
+}
+
+#div_opacity:hover {
+    opacity: 1.0
+}
+
+#gradient_test1 {
+    height: 200px;
+    width: 100%;
+    background: #4abcce;
+    background: -webkit-linear-gradient(-100deg, #fff6aa, #ff0900);
+
+}
+
+.center_me_Fire {
+    text-align: center;
+    padding: 80px;
+    font-family: Papyrus, sans-serif;
+    font-size: 50px;
+
+}
+
+#gradient_test2 {
+    height: 200px;
+    width: 100%;
+    background: #4abcce;
+    background: -webkit-linear-gradient(-80deg, skyblue, navy);
+    
+}
+
+.center_me_Water {
+    text-align: center;
+    padding:80px;
+    font-family:"Brush Script MT", sans-serif;
+    font-size: 50px;
+}
+
+.font_list { /*Dont know how to position text lol*/
+
+
+}

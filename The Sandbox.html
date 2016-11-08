@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>'Kight Works</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link href='stylesheet.css' type='text/css' rel='stylesheet'></link>
+</head>
+<body>
+
+<h1 id="navbar_title">- --—The Sandbox—-- -</h1>
+<h3 id="navbar_subtitle">This page is simply for experimentation. <b><em>'The Sandbox'</em></b> wont a part of the website.</h3>
+<div id="invisible"></div>
+
+<header>
+    <div id="navbar_div">
+        <ul>
+            <li class="navbar_child" id="Unum"><a href="index.html">Home Page</a></li> <!-- ID = # {color:"";}. Class = . {color:"";} -->
+            <li class="navbar_child" id="Duo"><a href="Games.html">Games</a></li>
+            <li class="navbar_child" id="Tribus"><a href="About.html">About</a></li>
+            <li class="navbar_child" id="Quattuor"><a href="Coding Notes.html">Coding Notes</a></li>
+            <li class="navbar_child" id="Quinque"><a href="Media.html">Media</a></li>
+            <li class="navbar_child" id="Experimentum"><a href="The Sandbox.html">The Sandbox</a></li>
+        </ul>
+    </div>
+</header>
+
+<br>
+
+<button class="experiments_button"> 1: Tabs and Panels </button>
+<div class="panel">
+
+<div>
+    <h1> Experiment 1: Tabs and Panels </h1>
+    <p class="center_me"> In this experiment i'm trying to figure out how to make multiple pages without an extra html file.<br>Click those links right below!</p>
+</div>
+
+<ul class="w3-navbar w3-black" id="no_bullets">
+    <li><a class="colorlink" href="javascript:void(0)" onclick="openColor('#ff7365')">Color: #ff7365</a></li>
+    <li><a class="colorlink" href="javascript:void(0)" onclick="openColor('#3a0000_#590000')">Color: #3a0000_#590000</a></li>
+    <li><a class="colorlink" href="javascript:void(0)" onclick="openColor('#939393')">Color: #939393</a></li>
+</ul>
+
+<div id="#ff7365" class="color">
+    <h2 class="center_me"><font color="#ff7365">#ff7365</font></h2>
+    <p class="center_me">This color is used in the title at the top of the page.</p>
+</div>
+
+<div id="#3a0000_#590000" class="color">
+    <h2 class="center_me"><font color="#3a0000">#3a0000</font> & <font color="#590000">#590000</font></h2>
+    <p class="center_me">These two colors are used as the background of the navigation bar.</p>
+</div>
+
+<div id="#939393" class="color">
+    <h2 class="center_me"><font color="#939393">#939393</font></h2>
+    <p class="center_me">This color is used as the definite-background for the entire page.</p>
+</div>
+
+<script>
+openColor("#ff7365");
+
+function openColor(colorName) {
+var i;
+var x = document.getElementsByClassName("color");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+document.getElementById(colorName).style.display = "block";
+}
+</script>
+
+
+</div>
+
+
+<hr>
+
+
+<button class="experiments_button"> 2: Progress Bars </button>
+<div class="panel">
+
+        <h1> Experiment 2: Progress Bar </h1>
+
+</div>
+
+
+<hr>
+
+
+<button class="experiments_button"> 3: Tool Tips </button>
+    <div class="panel">
+
+        <h1> Experiment 3: Tool Tips </h1>
+
+    <div class="center_me" title="Yay!"><font color="#b22222">Hover your mouse over me!</font></div>
+        <p class="center_me" title="Why are you hovering your mouse over this one.">That's one of the more simple tooltip, i'll probably comeback later to try more fancier ones.</p>
+
+</div>
+
+
+<hr>
+
+<button class="experiments_button"> 4: More Panels </button>
+    <div class="panel">
+
+        <h1> Experiment 4: More Panels </h1>
+
+        <button class="experiments_button">Click this panel to proceed to the Pages Experiment!</button>
+            <div class="panel">
+
+            <h1> Experiment 4.5: Pages </h1>
+                <h6 class="center_me">The 'Experiment 4' was just to see how multiple would work.</h6>
+
+            </div>
+    </div>
+
+
+<hr>
+
+
+<button class="experiments_button"> 5: Full Screen Overlay Navigation </button>
+    <div class="panel">
+
+        <h1> Experiment 5: Overlay Navigation </h1>
+
+    </div>
+
+
+<hr>
+
+
+<button class="experiments_button"> 6: CSS Opacity </button>
+    <div class="panel">
+
+        <h1> Experiment 6: CSS Opacity </h1>
+
+        <p>I'm in a opacity of 100%</p>
+        <div id="opacity_test_75"><p>I'm in a opacity of 75%</p></div>
+        <div id="opacity_test_50"><p>I'm in a opacity of 50%</p></div>
+        <div id="opacity_test_25"><p>I'm in a opacity of 25%</p></div>
+        <div id="opacity_test_0"><p>I'm in a opacity of 0%</p></div>
+
+        <hr>
+
+        <div id="opacity_test_50to100"><p>I'm in a opacity of 50%, but if you mouse over me i'll be in 100%!</p></div>
+
+        <hr>
+
+        <div id="div_opacity"><div>Mouse over me so that I'll become an opacity of 100%!</div></div>
+
+        <hr>
+
+    <p>Highlights also decrease in opacity the lower you go. For example the next sentence after "I'm in a opacity of 25%" you can not see it nor can you highlight it without the highlight being an opacity of 0%.</p>
+
+    </div>
+
+
+<hr>
+
+
+<button class="experiments_button"> 7: Gradients </button>
+<div class="panel">
+
+    <h1> Experiment 7: Gradients </h1>
+
+    <div id="gradient_test1"><p class="center_me_Fire">Fire</p></div>
+
+    <div id="gradient_test2"><p class="center_me_Water">Water</p></div>
+
+    </div>
+
+<script>
+    /* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+    var acc = document.getElementsByClassName("experiments_button");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+
+</script>
+
+<p class="center_me">I used <a href="http://www.w3schools.com/w3css/w3css_tabulators.asp">www.w3schools.com</a> for help on these experimentation.</p>
+
+</body>
+</html>
