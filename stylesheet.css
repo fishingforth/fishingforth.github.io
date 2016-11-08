@@ -302,3 +302,27 @@ a:visited.colorlink {color: #000000;}
     margin-top: -20px;
 
 }
+
+#animation_test1 {
+    background: #5c2a8e;
+    width:100px;
+    height:100px;
+    transition: width 2s;
+}
+
+#animation_test1:hover {
+    width: 100%;
+}
+
+#animation_test2 {
+    background: #1f7e9a;
+    width:100px;
+    height:100px;
+    transition: width 2s;
+    position:relative;
+    float:right;
+}
+
+#animation_test2:hover {
+    width: 100%;
+}
