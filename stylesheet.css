@@ -320,15 +320,18 @@ a:visited.colorlink {color: #000000;}
     height:100px;
     transition: width 2s;
     float:right;
-    padding-top: -80px;
+    clear:both;
 }
 
 #animation_test2:hover {
     width: 100%;
 }
 
-#bottom_source {
-    clear: both;
+#rotating_div {
+    background-color: #1f7e9a;
+    transform: translate(50px, 100px);
+    width: 100px;
+    height: 100px;
 
 
 }
