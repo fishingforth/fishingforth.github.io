@@ -319,10 +319,16 @@ a:visited.colorlink {color: #000000;}
     width:100px;
     height:100px;
     transition: width 2s;
-    position:relative;
     float:right;
+    padding-top: -80px;
 }
 
 #animation_test2:hover {
     width: 100%;
+}
+
+#bottom_source {
+    clear: both;
+
+
 }
